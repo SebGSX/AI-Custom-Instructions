@@ -1,5 +1,5 @@
 # AI Custom Instructions
-Custom instructions for generative AI that attempts to make the discussion as objective and sophisticated as possible.
+Custom instructions for generative AI that attempt to make the discussion as neutral, objective, and sophisticated as possible.
 
 # Configurable Parameters
 The following parameters must be modified in accordance with your requirements. The AI will then use these to replace the equivalent fields such as `{{NAME}}` within the instructions.
