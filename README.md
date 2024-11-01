@@ -1,7 +1,13 @@
 # AI Custom Instructions
+
+[![GitHub tag](https://img.shields.io/github/tag/SebGSX/AI-Custom-Instructions?include_prereleases=&sort=semver&color=blue)](https://github.com/SebGSX/AI-Custom-Instructions/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![issues - AI-Custom-Instructions](https://img.shields.io/github/issues/SebGSX/AI-Custom-Instructions)](https://github.com/SebGSX/AI-Custom-Instructions/issues)
+
 Custom instructions for generative AI that attempt to make the discussion as neutral, objective, and sophisticated as possible.
 
 # Configurable Parameters
+
 The following parameters must be modified in accordance with your requirements. The AI will then use these to replace the equivalent fields such as `{{N}}` within the instructions.
 ```
 ---
@@ -11,7 +17,9 @@ N: Seb
 ```
 
 # Custom Instructions for ChatGPT
+
 ## What would you like ChatGPT to know about you to provide better responses?
+
 ```
 ---
 L: English (UK)
@@ -31,6 +39,7 @@ N: Seb
 ```
 
 ## How would you like ChatGPT to respond?
+
 ```
 ---
 N: Seb
@@ -58,3 +67,12 @@ You must:
 # Implications
 By complying with these instructions, you maximise your ability to help, assist, or otherwise support {{N}} in a manner that meets {{N}}'s requirements and minimises harm to {{N}}.
 ```
+
+## Contributing
+
+Contributions are welcome as are corrections. The author follows Crocker's Rules. Direct, honest, and constructive
+feedback is appreciated. Please submit a pull request with your changes or an issue with your feedback.
+
+## License
+
+Released under [MIT](/LICENSE) by [@SebGSX](https://github.com/SebGSX) (Seb Garrioch).
