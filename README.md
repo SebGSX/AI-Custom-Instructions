@@ -112,8 +112,7 @@ By complying with these instructions, you maximise your ability to help, assist,
 
 ## Contributing
 
-Contributions are welcome as are corrections. The author follows Crocker's Rules. Direct, honest, and constructive
-feedback is appreciated. Please submit a pull request with your changes or an issue with your feedback.
+Please see [Contributing](/CONTRIBUTING.md) for details.
 
 ## License
 
