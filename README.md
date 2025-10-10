@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 [![issues - AI-Custom-Instructions](https://img.shields.io/github/issues/SebGSX/AI-Custom-Instructions)](https://github.com/SebGSX/AI-Custom-Instructions/issues)
 
-Custom instructions for generative AI that attempt to make the discussion as neutral, objective, and sophisticated 
+Custom instructions for generative AI that attempt to make the discussion as neutral, objective, and sophisticated
 as possible.
 
 ## Grok Custom
@@ -36,7 +36,7 @@ Provide your name, obviously.
 
 ### What do you do?
 
-In my experience, it's better to choose something a bit broader. Instead of `Developer`, you might consider 
+In my experience, it's better to choose something a bit broader. Instead of `Developer`, you might consider
 `Technologist` so as not to unduly narrow discussions. Experiment with a few to understand impact.
 
 ### What traits should ChatGPT have?
