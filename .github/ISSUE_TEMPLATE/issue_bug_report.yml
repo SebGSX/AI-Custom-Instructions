@@ -1,0 +1,136 @@
+name: Bug Report
+description: Report a bug.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a bug.
+        > **To help us out:** We prefer short, concise information in point form that's easy to scan.
+  - type: textarea
+    id: id-issue-description
+    attributes:
+      label: What happened?
+      description: Please tell us what happened and include screenshots (if appropriate).
+      placeholder: "- In point form..."
+    validations:
+      required: true
+  - type: input
+    id: id-version
+    attributes:
+      label: On which version did this happen?
+      description: Please tell us the version of the software affected.
+      placeholder: "Example: v1.0.1"
+    validations:
+      required: true
+  - type: checkboxes
+    id: id-duplicates
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+        - label: I have searched the existing issues, none exist that cover this issue
+          required: true
+  - type: textarea
+    id: id-objective-description
+    attributes:
+      label: What were you trying to do?
+      description: Please tell us what you were trying to do but couldn't because of what happened.
+      placeholder: "- In point form..."
+    validations:
+      required: true
+  - type: textarea
+    id: id-expectation-description
+    attributes:
+      label: What should have happened?
+      description: Please tell us what you expect should have happened so that you could do what you were trying to do.
+      placeholder: "- In point form..."
+    validations:
+      required: true
+  - type: textarea
+    id: id-reproduction-description
+    attributes:
+      label: How did it happen?
+      description: Please tell us how it happened, step-by-step, and include screenshots (if appropriate).
+      placeholder: "- In point form..."
+    validations:
+      required: true
+  - type: textarea
+    id: id-logging-information
+    attributes:
+      label: Logging Information
+      description: Please copy then paste any logging information, including any stack- or backtraces, without any formatting.
+      placeholder: Logging information in raw form...
+      render: shell
+    validations:
+      required: false
+  - type: dropdown
+    id: id-device-type
+    attributes:
+      label: What device(s) were you using?
+      description: Please tell which device type(s) you were using when it happened.
+      multiple: true
+      options:
+        - Phone
+        - Tablet
+        - Laptop
+        - Desktop
+        - Server
+    validations:
+      required: true
+  - type: dropdown
+    id: id-virtualization
+    attributes:
+      label: Was the device virtualized?
+      description: Please tell us if the device(s) was virtualized.
+      multiple: true
+      options:
+        - Physical device
+        - Virtual machine
+        - Container
+        - Emulator / simulator
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: id-os-type
+    attributes:
+      label: What operating system(s) were you using?
+      description: Please tell us which operating system(s) you were using when it happened.
+      multiple: true
+      options:
+        - Android
+        - iOS
+        - Linux
+        - macOS
+        - Windows
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: id-browser-type
+    attributes:
+      label: What browser(s) were you using, if any?
+      description: If you were using a browser(s), please tell us which one.
+      multiple: true
+      options:
+        - Chrome
+        - Edge
+        - Firefox
+        - Safari
+        - Other
+    validations:
+      required: false
+  - type: checkboxes
+    id: id-terms
+    attributes:
+      label: Good Faith Participation
+      description: "By submitting this form, you agree to the following (links below):"
+      options:
+        - label: I agree to the Code of Conduct
+          required: true
+        - label: I agree to the Contributing Guidelines
+          required: true
+        - label: I agree to the Security Policy
+          required: true

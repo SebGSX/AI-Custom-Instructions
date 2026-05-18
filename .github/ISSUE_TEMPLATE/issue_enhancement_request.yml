@@ -1,0 +1,70 @@
+name: Enhancement Request
+description: Request an enhancement.
+title: "[Enhancement]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to request an enhancement.
+        > **To help us out:** We prefer short, concise information in point form that's easy to scan.
+  - type: textarea
+    id: id-issue-description
+    attributes:
+      label: What could be better?
+      description: Please tell us what could be better and include mock-ups (if appropriate).
+      placeholder: "- In point form..."
+    validations:
+      required: true
+  - type: input
+    id: id-version
+    attributes:
+      label: Which version are you using?
+      description: Please tell us the version of the software you're using.
+      placeholder: "Example: v1.0.1"
+    validations:
+      required: true
+  - type: checkboxes
+    id: id-duplicates
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the enhancement you're requesting.
+      options:
+        - label: I have searched the existing issues, none exist that cover this issue
+          required: true
+  - type: textarea
+    id: id-objective-description
+    attributes:
+      label: What are you trying to do?
+      description: Please tell us what you are trying to do but can't without the requested enhancement.
+      placeholder: "- In point form..."
+    validations:
+      required: true
+  - type: textarea
+    id: id-journey-description
+    attributes:
+      label: How should the enhancement work?
+      description: Please tell us how the enhancement should work, step-by-step, and include mock-ups (if appropriate).
+      placeholder: "- In point form..."
+    validations:
+      required: true
+  - type: textarea
+    id: id-alternatives
+    attributes:
+      label: What have you tried or considered?
+      description: Please tell us about any workarounds you've tried or alternative approaches you've considered.
+      placeholder: "- In point form..."
+    validations:
+      required: false
+  - type: checkboxes
+    id: id-terms
+    attributes:
+      label: Good Faith Participation
+      description: "By submitting this form, you agree to the following (links below):"
+      options:
+        - label: I agree to the Code of Conduct
+          required: true
+        - label: I agree to the Contributing Guidelines
+          required: true
+        - label: I agree to the Security Policy
+          required: true
