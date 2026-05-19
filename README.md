@@ -8,9 +8,13 @@ A collection of model-agnostic instruction sets for configuring chatbots (ChatGP
 new conversation or new project with a prompt. The goal: concise output that does not pretend the model is doing
 something it isn't.
 
-Two instruction sets are provided:
+The following instruction sets are provided:
 - [Analyst](/instruction_sets/analyst.md): An analyst to assist with research, development, and productivity.
 - [Tutor](/instruction_sets/tutor.md): A configurable tutor to assist with learning.
+- [Pull Request Reviewer](/instruction_sets/pull_request_reviewer.md): A configurable pull request reviewer to assist
+  with source code review against a standardized rubric.
+- [Work Item Reviewer](/instruction_sets/work_item_reviewer.md): A configurable work item reviewer to assist
+  with work item review against a standardized rubric.
 
 ## Premise
 
