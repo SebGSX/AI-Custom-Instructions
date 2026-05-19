@@ -15,6 +15,17 @@ The following instruction sets are provided:
   with source code review against a standardized rubric.
 - [Work Item Reviewer](/instruction_sets/work_item_reviewer.md): A configurable work item reviewer to assist
   with work item review against a standardized rubric.
+- [Nonfiction Manuscript Reviewer](/instruction_sets/nonfiction_manuscript_reviewer.md): A configurable manuscript
+  reviewer to assist with manuscript review against a standardized rubric.
+- [Nonfiction Social Post Reviewer](/instruction_sets/nonfiction_social_post_reviewer.md): A configurable social post
+  reviewer to assist with social post review against a standardized rubric.
+
+> **Summary:** AI is great with form, but you need to bring your own substance (BYOS) in terms of intelligence,
+> reasoning, and competence. The more substance within your input, the higher the probability that the AI will
+> "guess right" in its output, thus leading to higher quality, more useful outcomes.
+
+> **Zero Trust:** Given the nature of the technology, AI interaction must operate with zero trust. All output must be
+> thoroughly checked for issues. Such checking also requires you to bring your own substance.
 
 ## Premise
 
@@ -56,7 +67,7 @@ makes such objections difficult to sustain on the mathematical and technological
 are exceptionally convincing mimics.
 
 > **Note:** The phenomenon of emergent abilities as a concept and its utility as a possible indicator of LLM reasoning
-> capability has been substantially weakened by recent research [Are Emergent Abilities of Large Language Models a Mirage?](https://arxiv.org/abs/2304.15004).
+> capability have been substantially weakened by recent research [Are Emergent Abilities of Large Language Models a Mirage?](https://arxiv.org/abs/2304.15004).
 > That research provides "evidence that alleged emergent abilities evaporate with different metrics or with better
 > statistics, and may not be a fundamental property of scaling AI models."
 
@@ -73,7 +84,7 @@ ChatGPT was given a verbal IQ test in March 2023. The AI scored an estimated **1
 of the test takers who make up the American WAIS III standardization sample of 2,450 people....so ChatGPT appears to be
 very intelligent by any human standards." Also in March 2023, ChatGPT passed the bar exam with a score near the 90th
 percentile, according to an article in the [American Bar Association (ABA) Journal](https://www.abajournal.com/web/article/latest-version-of-chatgpt-aces-the-bar-exam-with-score-in-90th-percentile).
-While later research from 2024 revised the 90th percentile claim, [Re-evaluating GPT-4’s bar exam performance](https://link.springer.com/article/10.1007/s10506-024-09396-9),
+While later research from 2024 revised the 90th percentile claim, [Re-evaluating GPT-4's bar exam performance](https://link.springer.com/article/10.1007/s10506-024-09396-9),
 it is easy to see how the hype can, and does, get ahead of the reality.
 
 #### Contact with Reality
@@ -112,7 +123,7 @@ The `Context integrity` block is a soft constraint, not a security boundary. It 
 in-context prompt injection but does not prevent it.
 
 Adherence degrades over long contexts. If the model drifts back to filler, hedging, or unsolicited
-next-steps after many turns, re-anchor by restating the relevant constraints.
+next steps after many turns, re-anchor by restating the relevant constraints.
 
 Different platforms strip, truncate, or reinterpret instructions inconsistently. Verify output behavior
 before relying on the configuration.
