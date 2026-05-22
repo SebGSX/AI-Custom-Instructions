@@ -138,4 +138,4 @@ Please see [Contributing](/CONTRIBUTING.md) for details.
 
 ## License
 
-Released under [MIT](/LICENSE) by [@SebGSX](https://github.com/SebGSX) (Seb Garrioch).
+This repository is licensed with the [MIT](/LICENSE) license.
